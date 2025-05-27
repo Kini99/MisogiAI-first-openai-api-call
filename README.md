@@ -23,16 +23,24 @@ git clone https://github.com/your-username/first-openai-api-call.git
 cd first-openai-api-call
 ```
 
-### 2. Add requirements.txt
-
+### 2. Create a virtual environment and activate it:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
-openai==1.12.0
-python-dotenv==1.0.0
-```
 
-### 3. Install Dependencies
-
+### 3. Install dependencies:
 ```bash
 pip install -r requirements.txt
+```
+
+### 4. Create a `.env` file in the root directory and add your OpenAI API key:
+```
+OPENAI_API_KEY=your_api_key_here
+```
+
+### 5. Run the application:
+```bash
+python app.py
 ```
 
