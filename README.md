@@ -22,14 +22,17 @@ This project demonstrates a basic usage of the OpenAI API using Python. It sends
 git clone https://github.com/your-username/first-openai-api-call.git
 cd first-openai-api-call
 ```
-### 2. Install Dependencies
 
-```bash
-pip install -r requirements.txt
-```
-### 3. Add requirement.txt
+### 2. Add requirements.txt
 
 ```
 openai==1.12.0
 python-dotenv==1.0.0
 ```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
