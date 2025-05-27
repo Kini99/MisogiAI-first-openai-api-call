@@ -19,7 +19,7 @@ This project demonstrates a basic usage of the OpenAI API using Python. It sends
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/first-openai-api-call.git
+git clone https://github.com/Kini99/MisogiAI-first-openai-api-call.git
 cd first-openai-api-call
 ```
 
